@@ -1,0 +1,1 @@
+This project is a simple clone of the Instagram login page built using HTML, CSS, and JavaScript. It replicates the design and layout of the original page, with responsive features to ensure it looks good on various devices. The purpose of this project is to practice front-end development skills and create a visually appealing, functional user interface.
