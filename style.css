@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+} 
+a{
+    color: #4b4b4b
+}
+a:hover{
+    border-bottom: 1px solid #1D3C78;
+}
+main .image{
+    position: absolute;
+    top: 10vh;
+    left: 26vh;
+}
+main .inputFeild img{
+    margin-bottom: 30px;
+}
+main .inputFeild{
+    width: 25%;
+    height: 380px;
+    border: 1px solid rgb(190, 190, 190);
+    position: relative;
+    left: 72vh;
+    top: 15vh;
+    padding: 20px;
+    text-align: center;
+}
+
+main .inputFeild input{
+    width: 80%;
+    padding: 8px;
+    border-radius: 5px;
+    outline: 0;
+    border: 1px solid rgb(190, 190, 190);
+    margin-bottom: 5px;
+}
+main .inputFeild button{
+    width: 80%;
+    background-color: #53bdeb;
+    font-weight: bold;
+    padding: 8px 25px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    color: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+main .line{
+    display: flex;
+}
+main .line hr{
+    width: 100px;
+}
+
+main .connect a{
+    color: #1D3C78;
+}
+
+main .register{
+    width: 25%;
+    height: 50px;
+    margin-top: 15px;
+    border: 1px solid rgb(190, 190, 190);
+    position: relative;
+    left: 72vh;
+    top: 15vh;
+    padding: 20px;
+    text-align: center;
+}
+
+main .register a{
+    color: #1D3C78;
+}
+main .download{
+    margin-top: 15px;
+    width: 25%;
+    height: auto;
+    position: relative;
+    left: 72vh;
+    top: 15vh;
+    padding: 20px;
+    text-align: center;
+}
+main .download img{
+    display: inline;
+}
+footer{
+    text-align: center;
+    position: relative;
+    top: 20vh;
+    margin: 15px 85px;
+    font-size: 15px;
+}
+
+footer a{
+    margin: 12px;
+}
+
+
+@media (max-width: 700px) {
+    main .image{
+        display: none;
+    }
+    main {
+        position: relative;
+        left: -55vh;
+    }
+    main .inputFeild{
+        width: 35%;
+        height: 380px;
+    }
+    main .register{
+        width: 35%;
+        height: 60px;
+    }
+    main .download{
+        width: 35%;
+    }
+}
+@media (max-width: 768px) {
+    main .image{
+        display: block;
+    }
+    main {
+        position: relative;
+        left: -25vh;
+    }
+    main .inputFeild{
+        width: 45%;
+        height: 380px;
+    }
+    main .register{
+        width: 45%;
+        height: 60px;
+    }
+    main .download{
+        width: 45%;
+    }
+}
+@media (max-width: 590px) {
+    main .image{
+        display: none;
+    }
+    main {
+        position: relative;
+        left: -65vh;
+    }
+    main .inputFeild{
+        width: 85%;
+        height: 380px;
+    }
+    main .register{
+        width: 85%;
+        height: 60px;
+    }
+    main .download{
+        width: 85%;
+    }
+}
+
+@media (max-width: 470px) {
+    main .image{
+        display: none;
+    }
+    main {
+        position: relative;
+        left: -65vh;
+    }
+    main .inputFeild{
+        width: 85%;
+        height: 380px;
+    }
+    main .register{
+        width: 85%;
+        height: 60px;
+    }
+    main .download{
+        width: 85%;
+    }
+}
+
+
+@media (max-width: 375px) {
+    main .image{
+        display: none;
+    }
+    main {
+        position: relative;
+        left: -65vh;
+    }
+    main .inputFeild{
+        width: 65%;
+        height: 380px;
+    }
+    main .register{
+        width: 65%;
+        height: 60px;
+    }
+    main .download{
+        width: 65%;
+    }
+}
+
+@media (max-width: 356px) {
+    main .inputFeild img{
+        margin-bottom: 30px;
+        position: relative;
+        left: -10px;
+    }
+    main .image{
+        display: none;
+    }
+    main {
+        position: relative;
+        left: -65vh;
+    }
+    main .inputFeild{
+        width: 65%;
+        height: 380px;
+    }
+    main .register{
+        width: 65%;
+        height: 60px;
+    }
+    main .download{
+        width: 65%;
+    }
+}
